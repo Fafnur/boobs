@@ -1,0 +1,28 @@
+{
+  "root": "packages/web-store-e2e",
+  "sourceRoot": "packages/web-store-e2e/src",
+  "projectType": "application",
+  "targets": {
+    "e2e": {
+      "executor": "@nrwl/cypress:cypress",
+      "options": {
+        "cypressConfig": "packages/web-store-e2e/cypress.json",
+        "devServerTarget": "web-store:serve"
+      },
+      "configurations": {
+        "production": {
+          "devServerTarget": "web-store:serve:production"
+        }
+      }
+    },
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["packages/web-store-e2e/**/*.{js,ts}"]
+      }
+    }
+  },
+  "tags": [],
+  "implicitDependencies": ["web-store"]
+}

@@ -4,6 +4,8 @@
     "api": "packages/api",
     "express-store": "packages/express-store",
     "node-store": "packages/node-store",
-    "store": "packages/store"
+    "store": "packages/store",
+    "web-store": "packages/web-store",
+    "web-store-e2e": "packages/web-store-e2e"
   }
 }
