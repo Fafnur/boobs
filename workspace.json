@@ -2,6 +2,7 @@
   "version": 2,
   "projects": {
     "api": "packages/api",
+    "express-store": "packages/express-store",
     "node-store": "packages/node-store",
     "store": "packages/store"
   }
