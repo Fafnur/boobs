@@ -3,7 +3,8 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "nx serve store"
+    "start": "nx serve store",
+    "build": "nx run store:build --with-deps"
   },
   "private": true,
   "dependencies": {
