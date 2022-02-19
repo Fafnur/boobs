@@ -5,7 +5,8 @@
     "defaultBase": "main"
   },
   "cli": {
-    "defaultCollection": "@nrwl/workspace"
+    "defaultCollection": "@nrwl/workspace",
+    "packageManager": "yarn"
   },
   "tasksRunnerOptions": {
     "default": {
